@@ -1,0 +1,18 @@
+.accountContainer{
+    margin-top: 100px;
+}
+.avatar-thumbnails img {
+    margin-top: 50px;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+}
+.profileContainer {
+    display: flex;
+    margin: 40px;
+}
+@media only screen and (max-width: 768px) {
+    .profileContainer {
+        flex-direction: column-reverse;
+    }
+}

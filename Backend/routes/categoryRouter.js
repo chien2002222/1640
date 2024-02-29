@@ -8,7 +8,7 @@ const categoryRouter = express.Router();
 
 categoryRouter.get(
   "/",
-  isAuth,
+  // isAuth,
   expressAsyncHandler(async (req, res) => {
     const categories = await Category.find({});
     res.send(categories);
